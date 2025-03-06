@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to right, #f4f4f4, #dcdcdc);
+    color: #333;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.dark-mode {
+    background: linear-gradient(to right, #222, #444);
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #b71c1c;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+.hero {
+    background: linear-gradient(to right, #d32f2f, #880e4f);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

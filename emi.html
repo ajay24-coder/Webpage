@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="header">EMI Calculator</div>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="cars.html">Cars</a>
+        <a href="contact.html">Contact</a>
+        <a href="emi.html">EMI Calculator</a>
+        <button onclick="toggleDarkMode()">Dark Mode</button>
+    </div>
+    <div class="container">
+        <h2>Calculate Your EMI</h2>
+        <input type="number" id="amount" placeholder="Loan Amount (₹)">
+        <input type="number" id="rate" placeholder="Interest Rate (%)">
+        <input type="number" id="time" placeholder="Loan Tenure (Years)">
+        <button onclick="calculateEMI()">Calculate</button>
+        <p id="emi-result"></p>
+    </div>
+    <div class="footer">&copy; 2025 Indian Car Showroom. All Rights Reserved.</div>
+</body>
+
+</html>
